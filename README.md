@@ -1,2 +1,0 @@
-# PokemoDeskProjet
-Created with CodeSandbox
