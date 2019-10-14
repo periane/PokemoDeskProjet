@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "../PokemonSearch.css";
+import "./Loaders";
 
 class PokemonSearch extends Component {
   constructor(props) {
@@ -94,8 +95,10 @@ class PokemonSearch extends Component {
           />
           <i className="fa fa-search search-icon" />
         </label>
+        <Loaders />
+        {this.renderResults()}
       </div>
-    )
+    );
   }
 }
 
